@@ -1,6 +1,6 @@
 import { render, Component } from "inferno";
 import { innerHTML } from "inferno-utils";
-import { Router, Switch, Route, Redirect } from "inferno-router";
+import { Router, Switch, Route } from "inferno-router";
 import createHistory from "history/createMemoryHistory";
 
 describe("A <Switch>", () => {
